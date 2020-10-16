@@ -1,0 +1,7 @@
+<button type="button" {{on "click" @onSortChanged}}>Sort</button>
+{{@sort}}
+<ul>
+  {{#each this.data as |item|}}
+    <li>{{item}}</li>
+  {{/each}}
+</ul>
